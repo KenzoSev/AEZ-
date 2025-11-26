@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTTP Methods Visualization</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f7fb;
+      color: #1f2933;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(100%, 1100px);
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      padding: 32px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      color: #4a5568;
+    }
+
+    figure {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    object {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid #e3e8ef;
+      box-shadow: 0 6px 16px rgba(17, 24, 39, 0.12);
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main class="card" aria-labelledby="title">
+    <h1 id="title">Allowed HTTP Methods by Protocol</h1>
+    <p>
+      This page displays the generated SVG bar chart showing the daily count of allowed HTTP methods (GET, POST, PUT)
+      across the HTTP, HTTPS, and FTP protocols. Resize the window or view on a mobile device to see the chart adjust
+      responsively.
+    </p>
+    <figure>
+      <object
+        data="visualization.svg"
+        type="image/svg+xml"
+        role="img"
+        aria-label="Bar chart of allowed HTTP methods by protocol"
+      >
+        <p>
+          The visualization did not load. Try opening <a href="visualization.svg">visualization.svg</a> directly in your
+          browser.
+        </p>
+      </object>
+    </figure>
+  </main>
+</body>
+</html>
