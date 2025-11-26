@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500">
+	<text x="400.0" y="40" fill="#222" font-size="20" font-weight="bold" text-anchor="middle">Allowed HTTP Methods by Protocol</text>
+	<line x1="80" y1="80" x2="80" y2="420" stroke="#333" stroke-width="2"/>
+	<line x1="80" y1="420" x2="720" y2="420" stroke="#333" stroke-width="2"/>
+	<line x1="80" y1="420.0" x2="720" y2="420.0" stroke="#ccc" stroke-dasharray="4 4"/>
+	<text x="70" y="425.0" fill="#444" font-size="12" text-anchor="end">0</text>
+	<line x1="80" y1="306.6666666666667" x2="720" y2="306.6666666666667" stroke="#ccc" stroke-dasharray="4 4"/>
+	<text x="70" y="311.6666666666667" fill="#444" font-size="12" text-anchor="end">50</text>
+	<line x1="80" y1="193.33333333333334" x2="720" y2="193.33333333333334" stroke="#ccc" stroke-dasharray="4 4"/>
+	<text x="70" y="198.33333333333334" fill="#444" font-size="12" text-anchor="end">100</text>
+	<line x1="80" y1="80.0" x2="720" y2="80.0" stroke="#ccc" stroke-dasharray="4 4"/>
+	<text x="70" y="85.0" fill="#444" font-size="12" text-anchor="end">150</text>
+	<text x="150" y="444" fill="#222" font-size="14" text-anchor="middle">http</text>
+	<rect x="110" y="148.0" width="40" height="272.0" fill="#4e79a7" stroke="#ffffff" stroke-width="1"/>
+	<text x="130.0" y="142.0" fill="#222" font-size="11" text-anchor="middle">120</text>
+	<rect x="180" y="238.66666666666666" width="40" height="181.33333333333334" fill="#f28e2b" stroke="#ffffff" stroke-width="1"/>
+	<text x="200.0" y="232.66666666666666" fill="#222" font-size="11" text-anchor="middle">80</text>
+	<rect x="250" y="352.0" width="40" height="68.0" fill="#e15759" stroke="#ffffff" stroke-width="1"/>
+	<text x="270.0" y="346.0" fill="#222" font-size="11" text-anchor="middle">30</text>
+	<text x="330" y="444" fill="#222" font-size="14" text-anchor="middle">https</text>
+	<rect x="290" y="80.0" width="40" height="340.0" fill="#4e79a7" stroke="#ffffff" stroke-width="1"/>
+	<text x="310.0" y="74.0" fill="#222" font-size="11" text-anchor="middle">150</text>
+	<rect x="360" y="216.0" width="40" height="204.0" fill="#f28e2b" stroke="#ffffff" stroke-width="1"/>
+	<text x="380.0" y="210.0" fill="#222" font-size="11" text-anchor="middle">90</text>
+	<rect x="430" y="329.3333333333333" width="40" height="90.66666666666667" fill="#e15759" stroke="#ffffff" stroke-width="1"/>
+	<text x="450.0" y="323.3333333333333" fill="#222" font-size="11" text-anchor="middle">40</text>
+	<text x="510" y="444" fill="#222" font-size="14" text-anchor="middle">ftp</text>
+	<rect x="470" y="284.0" width="40" height="136.0" fill="#4e79a7" stroke="#ffffff" stroke-width="1"/>
+	<text x="490.0" y="278.0" fill="#222" font-size="11" text-anchor="middle">60</text>
+	<rect x="540" y="329.3333333333333" width="40" height="90.66666666666667" fill="#f28e2b" stroke="#ffffff" stroke-width="1"/>
+	<text x="560.0" y="323.3333333333333" fill="#222" font-size="11" text-anchor="middle">40</text>
+	<rect x="610" y="420.0" width="40" height="0.0" fill="#e15759" stroke="#ffffff" stroke-width="1"/>
+	<text x="630.0" y="414.0" fill="#222" font-size="11" text-anchor="middle">0</text>
+	<text x="70" y="60" fill="#222" transform="rotate(-90 70,60)" font-size="14" text-anchor="middle">Allowed Requests (per day)</text>
+	<text x="570" y="80" fill="#222" font-size="13" font-weight="bold">Method</text>
+	<rect x="570" y="100" width="14" height="14" fill="#4e79a7"/>
+	<text x="590" y="112" fill="#222" font-size="12">GET</text>
+	<rect x="570" y="120" width="14" height="14" fill="#f28e2b"/>
+	<text x="590" y="132" fill="#222" font-size="12">POST</text>
+	<rect x="570" y="140" width="14" height="14" fill="#e15759"/>
+	<text x="590" y="152" fill="#222" font-size="12">PUT</text>
+</svg>
